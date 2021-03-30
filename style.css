@@ -1,0 +1,58 @@
+#navbar{
+	text-align: center;
+	list-style-type: none;
+	/*background-color: #10222e;*/
+}
+.list{
+	display: inline-block;
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	padding: 35px;
+	}
+	body{
+		/*background-color: #10222e;*/
+		overflow-x: hidden;
+		background-image: url(Photo1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+
+	}
+	#img1{
+		float: left;
+		position: relative;
+		top: -80px;
+   
+	}
+	.btn{
+		position: relative;
+		top: 300px;
+		left: 800px;
+		background-color: #ff523b;
+		color: #fff;
+		padding: 8px 30px;
+		border-radius: 30px;
+		font-size: 15px;
+		transition: background 0.5s;
+
+
+
+	}
+	.btn:hover{
+		background-color: #563434;
+	}
+	#cart{
+		position: relative;
+		bottom: 60px;
+		left: 970px;
+		width: 50px;
+	}
+	#header{
+		position: relative;
+		left: 800px;
+		top: 150px;
+		font-family: 'Poppins', sans-serif;
+	}
+
